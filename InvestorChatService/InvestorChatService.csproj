@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Riok.Mapperly" Version="4.2.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="8.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="API\Controllers\" />
+    <Folder Include="API\Middleware\" />
+    <Folder Include="API\Filters\" />
+    <Folder Include="Application\Interfaces\" />
+    <Folder Include="Application\DTOs\" />
+    <Folder Include="Application\Services\" />
+    <Folder Include="Grpc\Protos\" />
+    <Folder Include="Grpc\Services\" />
+    <Folder Include="Infrastructure\ExternalServices\" />
+    <Folder Include="Infrastructure\Configurations\" />
+    <Folder Include="Infrastructure\Persistence\DbContexts\" />
+    <Folder Include="Infrastructure\Persistence\Repositories\" />
+    <Folder Include="Database\" />
+    <Folder Include="Mappers\" />
+    <Folder Include="Dockerfile\" />
+    <Folder Include="SignalR\Events\" />
+  </ItemGroup>
+
+</Project>

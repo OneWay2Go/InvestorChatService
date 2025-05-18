@@ -1,0 +1,6 @@
+services:
+  investorchatservice:
+    image: ${DOCKER_REGISTRY-}investorchatservice
+    build:
+      context: .
+      dockerfile: InvestorChatService/Dockerfile

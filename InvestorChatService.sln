@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35527.113 d17.12
+VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvestorChatService", "InvestorChatService\InvestorChatService.csproj", "{4C0D0120-EB73-49FB-8F11-0587D969F48D}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{8920A0BA-0578-43CF-B098-A97F75D3033C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{4C0D0120-EB73-49FB-8F11-0587D969F48D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4C0D0120-EB73-49FB-8F11-0587D969F48D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4C0D0120-EB73-49FB-8F11-0587D969F48D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8920A0BA-0578-43CF-B098-A97F75D3033C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8920A0BA-0578-43CF-B098-A97F75D3033C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8920A0BA-0578-43CF-B098-A97F75D3033C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8920A0BA-0578-43CF-B098-A97F75D3033C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

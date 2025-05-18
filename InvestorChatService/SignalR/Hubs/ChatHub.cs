@@ -1,6 +1,9 @@
-﻿namespace InvestorChatService.SignalR.Hubs
+﻿using Microsoft.AspNetCore.SignalR;
+
+namespace InvestorChatService.SignalR.Hubs
 {
-    public class ChatHub
+    public class ChatHub : Hub
     {
+
     }
 }

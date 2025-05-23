@@ -31,7 +31,6 @@
     <Folder Include="API\Controllers\" />
     <Folder Include="API\Middleware\" />
     <Folder Include="API\Filters\" />
-    <Folder Include="Application\Interfaces\" />
     <Folder Include="Application\DTOs\" />
     <Folder Include="Application\Services\" />
     <Folder Include="Grpc\Protos\" />

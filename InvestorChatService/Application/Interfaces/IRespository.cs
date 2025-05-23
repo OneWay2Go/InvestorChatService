@@ -1,4 +1,4 @@
-﻿namespace InvestorChatService.Infrastructure.Persistence.Repositories.Interfaces
+﻿namespace InvestorChatService.Application.Interfaces
 {
     public interface IRepository<TEntity>
     {

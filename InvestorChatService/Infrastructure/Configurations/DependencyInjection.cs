@@ -1,6 +1,5 @@
 ﻿using InvestorChatService.Infrastructure.Persistence.DbContexts;
-using InvestorChatService.Infrastructure.Persistence.Repositories;
-using InvestorChatService.Infrastructure.Persistence.Repositories.Interfaces;
+
 using Microsoft.EntityFrameworkCore;
 
 namespace InvestorChatService.Infrastructure.Configurations

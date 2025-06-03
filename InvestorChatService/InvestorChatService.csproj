@@ -28,11 +28,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="API\Controllers\" />
     <Folder Include="API\Middleware\" />
     <Folder Include="API\Filters\" />
     <Folder Include="Application\DTOs\" />
-    <Folder Include="Application\Services\" />
     <Folder Include="Grpc\Protos\" />
     <Folder Include="Grpc\Services\" />
     <Folder Include="Infrastructure\ExternalServices\" />
